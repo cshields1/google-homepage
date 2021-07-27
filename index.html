@@ -26,7 +26,9 @@
             <li><a href="#">Gmail</a></li>
             <li><a href="#">Images</a></li>
             <li>
-              <a href=""><span class="material-icons"> apps </span></a>
+              <a class="apps-icon" href=""
+                ><span class="material-icons apps-icon"> apps </span></a
+              >
             </li>
             <li><button id="sign-in" type="button">Sign in</button></li>
           </ul>
@@ -41,26 +43,19 @@
       />
       <form id="search-form">
         <div class="search-field">
-          <label for="search"
-            ><span class="material-icons"> search </span></label
-          >
-          <input id="search-bar" type="text" name="search" />
-          <a href=""><span class="material-icons"> mic </span></a>
+          <label for="search">
+            <span id="search-icon" class="material-icons"> search </span>
+          </label>
+          <input id="search" type="text" name="search" />
+          <span id="mic-icon" class="material-icons"> mic </span>
         </div>
         <div class="search-buttons">
-          <button type="submit">Google Search</button>
-          <button type="button">I'm Feeling Lucky</button>
+          <button class="form-btn" type="submit">Google Search</button>
+          <button class="form-btn" type="button">I'm Feeling Lucky</button>
         </div>
       </form>
     </main>
     <footer>
-      <div class="footer-items">
-        <ul>
-          <li><a href="#">Advertising</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">How Search works</a></li>
-        </ul>
-      </div>
       <div id="carbon">
         <img
           id="leaf"
@@ -69,7 +64,12 @@
         />
         <span>Carbon neutral since 2007</span>
       </div>
-      <div class="footer-items">
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">How Search works</a></li>
+        </ul>
         <ul>
           <li><a href="#">Privacy</a></li>
           <li><a href="#">Terms</a></li>
