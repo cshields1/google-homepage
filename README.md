@@ -1,4 +1,4 @@
-Google Homepage
+<h1>Google Homepage</h1>
 
 This project will clone the Google homepage (without its functionality) in order to practice basic HTML and CSS.
 
