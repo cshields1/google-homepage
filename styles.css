@@ -80,22 +80,20 @@ input {
   width: 30vw;
 }
 
-.search-form {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-}
+/* #search-form {
+  align-self: center;
+} */
 
 .search-field {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-self: center;
   height: 3vh;
+  width: 75%;
   border: 1px solid #e4e4e4;
   border-radius: 50px;
   padding: 5px 10px;
-  margin: 0 1rem 1rem 1rem;
+  margin: 0 auto 1em auto;
 }
 
 .search-field:hover {
